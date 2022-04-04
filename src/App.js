@@ -6,7 +6,7 @@ const App = () =>{
     <div className="App">
       <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Calculator />}></Route>
+            <Route path="/cal" element={<Calculator />}></Route>
             <Route path="*" element={<div>페이지 없당!</div>}></Route>
         </Routes>
       </BrowserRouter>
